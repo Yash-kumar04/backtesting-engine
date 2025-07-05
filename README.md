@@ -1,26 +1,17 @@
-# 📈 Backtesting Engine for Trading Strategies
+# 🔍 Backtesting Engine for Trading Strategies
 
-This Python-based tool allows users to simulate and evaluate technical trading strategies using historical stock data.
+This is a Python project I built to simulate technical trading strategies on real historical stock data. The engine is modular and currently supports Moving Average Crossover and RSI strategies.
 
-## 🔧 Features
-- Supports Moving Average Crossover and RSI-based strategies
-- Calculates Sharpe Ratio and Max Drawdown
-- Plots buy/sell signals on price chart
-- Logs trade signals to CSV
+## What It Does
 
-## ▶️ How to Use
+- Takes any stock ticker (like ADANIPOWER.NS)
+- Runs the selected strategy on 4+ years of data
+- Outputs Sharpe Ratio and Max Drawdown
+- Saves trade logs and signal plots in a `results/` folder
+
+## How to Run
+
 ```bash
 pip install -r requirements.txt
-python main.py --ticker ADANIPOWER.NS --strategy ma
-```
+python main.py --ticker SBIN.NS --strategy rsi
 
-## 📊 Output Example
-```
-Sharpe Ratio: 1.25  
-Max Drawdown: -10.84%
-```
-Graph and trade logs saved in `/results`
-
-## ✒️ Author
-Yash Kumar  
-[LinkedIn](https://linkedin.com/in/yash-kumar-51279b295/)
