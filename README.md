@@ -1,4 +1,4 @@
-# 🔍 Backtesting Engine for Trading Strategies
+#  Backtesting Engine for Trading Strategies
 
 This is a Python project I built to simulate technical trading strategies on real historical stock data. The engine is modular and currently supports Moving Average Crossover and RSI strategies.
 
